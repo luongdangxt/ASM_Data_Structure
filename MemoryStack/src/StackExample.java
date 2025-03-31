@@ -12,11 +12,10 @@ public class StackExample {
 
         myStack.display(); // Display the stack elements
 
-        System.out.println("Peeked Element: " + myStack.peek()); // Peek at the top element
 
-        myStack.pop(); // Pop an element from the stack
-        myStack.display(); // Display the remaining elements
 
+        System.out.println("Top Element: " + myStack.peek()); // Peek at the top element
+        System.out.println("Pop: " + myStack.pop()); // Pop element
         System.out.println("Is stack empty? " + myStack.isEmpty()); // Check if the stack is empty
     }
 }
